@@ -8,19 +8,25 @@ function SacarResto()
 
 	//Reservo espacio en memoria creando las varables
 	
-	let num1;
-	let num2;
+	let dividendo;
+	let divisor;
 	let resultado;
 	
-	//Cargo los valores con los datos de entrada y los parseo para que se pueden operarar entre sí los valores
+	//Cargo los valores con los datos de entrada 
 	
-	num1 = parseInt (document.getElementById("txtIdNumeroDividendo").value);
-	num2 = parseInt (document.getElementById("txtIdNumeroDivisor").value);
+	dividendo = document.getElementById("txtIdNumeroDividendo").value;
+	divisor = document.getElementById("txtIdNumeroDivisor").value;
 	
+	//Parseo las variables
+
+	dividendo = parseInt (dividendo);
+	divisor = parseInt (divisor);
+	
+
 	//Sacó el módulo de  los valores ingresados
+	 
 	
-	
-	resultado = num1 % num2;
+	resultado = dividendo % divisor;
 	
 	alert("El resto es " + resultado);
 	

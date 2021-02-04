@@ -13,13 +13,19 @@ let num1;
 let num2;
 let resultado;
 
-//Cargo los valores con los datos de entrada y los parseo para que se pueden operarar entre sí los valores
+//Cargo los valores con los datos de entrada
+//si no pongo el value, me va a tirara error html.input,objet porque tomaria todo el objetvo y no solo el valor como busco
 
-num1 = parseInt (document.getElementById("txtIdNumeroUno").value);
-num2 = parseInt (document.getElementById("txtIdNumeroDos").value);
+num1 = document.getElementById("txtIdNumeroUno").value;
+num2 = document.getElementById("txtIdNumeroDos").value;
+
+//parseo
+
+num1 = parseInt (num1);
+num2 = parseInt (num2);
+
 
 //Sumo los valores ingresados
-
 
 resultado = num1 + num2;
 
