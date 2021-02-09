@@ -5,7 +5,6 @@ C.	ingresar tres precios de productos  y mostrar precio final (más IVA 21%).
 */
 
 
-//Ahora que tengo los valores de cada producto y parseados, aplico las funciones correspondientes
 
 function Sumar () 
 {
@@ -33,7 +32,7 @@ let sumaTotal;
 
 sumaTotal = productoUno + productoDos + productoTres;
 sumaTotal = parseFloat(sumaTotal);
-alert(sumaTotal);
+alert("la suma de los 3 productos es $"+sumaTotal);
  
 
 }
@@ -62,7 +61,7 @@ productoTres =parseFloat (productoTres);
 let promedioTotal;
 promedioTotal = (productoUno + productoDos + productoTres)/3;
 promedioTotal = parseFloat(promedioTotal);
-alert(promedioTotal);
+alert("El promedio de los 3 productos es $"+promedioTotal);
 
 
 }
@@ -96,7 +95,7 @@ sumaTotal = parseFloat(sumaTotal);
 //Saco el IVA de la suma de los 3 productos y se lo sumo directamente
 
 sumaTotal = sumaTotal * 1.21;
-alert(sumaTotal);
+alert("El precio final a pagar de los 3 productos es $"+sumaTotal);
  
     
 

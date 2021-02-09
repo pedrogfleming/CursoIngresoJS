@@ -6,7 +6,7 @@ y lo muestro por 'ID' al presionar el botón 'mostrar'
 function mostrar()
 {
 
-//reservo espacio en memoria para guardar el nombre del usuario */
+//reservo espacio en memoria para guardar el nombre del usuario 
 let nombre;
 
 // guardo en la variable nombre el texto que escribio en usuario dentro de la ventana prompt
@@ -19,4 +19,5 @@ Es importante escribir .value, porque si no no va a devolver ese valor ingresado
 document.getElementById("txtIdNombre").value = nombre;
 
 
-}
+
+
