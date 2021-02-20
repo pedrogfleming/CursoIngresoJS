@@ -5,7 +5,8 @@ function mostrar()
 	alert(horaDelDia);
 	horaDelDia = parseInt(horaDelDia);
 	
-switch (horaDelDia) {
+switch (horaDelDia) 
+{
 	case 7:
 	case 8:
 	case 9:

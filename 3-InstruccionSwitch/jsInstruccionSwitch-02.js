@@ -5,7 +5,8 @@ function mostrar()
 	alert(mesDelAño);
 	//ACLARACIÓN: tomamos a Julio y Agosto como los meses de Invierno.
 
-switch (mesDelAño) {
+switch (mesDelAño) 
+{
 	case "Enero":
 	case "Febrero":
 	case "Marzo":

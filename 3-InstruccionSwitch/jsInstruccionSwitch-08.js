@@ -12,6 +12,5 @@ function mostrar()
 			alert("Hace calor en este destino");
 			break;
 	}
-	alert(destinoIngresado);
 
 }//FIN DE LA FUNCIÓN

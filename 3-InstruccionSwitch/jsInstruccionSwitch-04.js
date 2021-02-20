@@ -8,7 +8,8 @@ function mostrar()
 	
 	alert(mesDelAño);
 	
-	switch (mesDelAño) {
+	switch (mesDelAño) 
+	{
 		case "Febrero":
 			alert("Este mes tiene 28 días");
 			break;
