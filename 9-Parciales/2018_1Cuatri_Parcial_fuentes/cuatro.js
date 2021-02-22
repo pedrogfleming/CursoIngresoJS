@@ -18,10 +18,14 @@ let primerNumero;
 let segundoNumero;
 let resultadoResta;
 let resultadoSuma;
+let primerNumeroString;
+let segundoNumeroString;
 
 //Pido al usuario que ingrese los dos números
 primerNumero = prompt("Ingrese el primer número");
 segundoNumero = prompt ("Ingrese el segundo número");
+primerNumeroString = primerNumero;
+segundoNumeroString = segundoNumero;
 //Parseo los números ingresados
 primerNumero = parseInt(primerNumero);
 segundoNumero = parseInt(segundoNumero);
@@ -31,7 +35,7 @@ resultadoSuma = primerNumero+segundoNumero;
 //Invoco el if
 if(primerNumero == segundoNumero)//Si son iguales los muestro concatenados.
 {
-alert(primerNumero+""+segundoNumero);
+alert(primerNumeroString+segundoNumeroString);
 }
 else
 {
